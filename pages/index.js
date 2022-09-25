@@ -104,7 +104,7 @@ const Home = () => (
           &quot; has more than 100k subscribers. */}
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="https://drive.google.com/uc?export=download&id=1D5L823Lql_Ns9BxAymNY_18v_8urpNCZ" passHref scroll={false}>
+          <NextLink href="https://drive.google.com/uc?export=download&id=1F1DG_sbfhwyByMh4c83kuUjSIO7f_yVp" download passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My Resume
             </Button>
