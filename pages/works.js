@@ -8,7 +8,7 @@ import healthCan from '../public/images/works/healthcanlogo.png'
 import pickAndGo from '../public/images/works/pickAndGologo.png'
 import arogiPic from '../public/images/works/arogi.png'
 import morningShowcase from '../public/images/works/morningo.png'
-import threeImage from '../public/images/works/threeImage.jpeg'
+import threeImage from '../public/images/works/threeimage.jpeg'
 import assembly from '../public/images/works/assembly.png'
 import ligerrBoard from '../public/images/works/ligerrBoard.png'
 
