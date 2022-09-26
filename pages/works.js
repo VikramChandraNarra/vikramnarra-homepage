@@ -15,10 +15,11 @@ import ligerrBoard from '../public/images/works/ligerrBoard.png'
 const Works = () => (
   <Layout title="Works">
     <Container>
-      <Heading as="h3" fontSize={20} mb={4} marginTop={5}>
-        Projects
-      </Heading>
 
+
+      <Heading as="h3" variant="section-title" fontSize={20} mb={4} marginTop={5}>
+        Projects
+        </Heading>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="healthcan" title="HealthCan" thumbnail={healthCan}>
@@ -57,9 +58,10 @@ const Works = () => (
       <Section delay={0.4}>
         <Divider my={6} />
 
-        <Heading as="h3" fontSize={20} mb={4}>
-          Less Relevant Projects/Ongoing
+        <Heading as="h3" variant="section-title" fontSize={20} mb={4} marginTop={5}>
+        Less Relevant/Ongoing
         </Heading>
+        
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>

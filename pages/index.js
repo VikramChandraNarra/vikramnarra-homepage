@@ -8,18 +8,22 @@ import {
   List,
   ListItem,
   useColorModeValue,
+  chakra,
 } from '@chakra-ui/react'
-
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { IoLogoTwitter, IoLogoGithub, IoLogoLinkedin, IoMail, IoCall} from 'react-icons/io5'
+import Image from 'next/image'
+import Typed from 'react-typed'
 
-// const ProfileImage = chakra(Image, {
-//   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
-// })
+
+const ProfileImage = chakra(Image, {
+  shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
+})
+
 
 const Home = () => (
   <Layout>
@@ -33,7 +37,12 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        <Link>Hello World! Let&apos;s build Great things together!</Link>
+          <Typed
+              strings={["print(\"Hello World!\");", "System.out.println(\"Hello World!\");", "System.Console.WriteLine(\"Hello World\");", "println('Hello World');", "console.log(\"Hello World\");", "echo \"Hello World\""]}
+              typeSpeed={50}
+              backSpeed={50}
+              loop
+            />
   
       </Box>
 
@@ -42,7 +51,17 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Vikram Narra
           </Heading>
-          <p>Digital Aristocrat (Full Stack Developer)</p>
+          <p>
+            <Link>
+            <Typed
+                strings={["Full Stack Developer 👨‍💻", "ML Enthusiast 🧠", "iOS Developer ", "Android Developer 📱", "Founder of Cobuild 🤔"]}
+                typeSpeed={80}
+                backSpeed={30}
+                loop
+              />
+            </Link>
+
+          </p>
         </Box>
         <Box
           flexShrink={0}
@@ -50,7 +69,7 @@ const Home = () => (
           ml={{ md: 6 }}
           textAlign="center"
         >
-          {/* <Box
+          <Box
             borderColor="whiteAlpha.800"
             borderWidth={2}
             borderStyle="solid"
@@ -61,13 +80,13 @@ const Home = () => (
             overflow="hidden"
           >
             <ProfileImage
-              src="/images/takuya.jpg"
+              src="/IMG_1198.jpg"
               alt="Profile image"
               borderRadius="full"
               width="100%"
               height="100%"
             />
-          </Box> */}
+          </Box>
         </Box>
       </Box>
 
@@ -75,15 +94,21 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           About Me
         </Heading>
+
         <Paragraph>
           Vikram is a <Link>Computer Science Specialist
-           Entrepreneurship Stream </Link> 
+          Entrepreneurship Stream </Link> 
           student at<Link> University of Toronto</Link>
     
           . With a huge passion for building 
-          start-ups focused around Tech and Empowerment. <br></br>
-          In his spare time he loves to network and connect with other innovative entrepreneurs, 
+          start-ups focused around Tech and Empowerment. 
+
+        </Paragraph>
+        <Paragraph>
+          In his spare time he loves to network and connect with other innovative entrepreneurs 
           and spends most of his time immersing himself into the future of tech. 
+        </Paragraph>
+          
 
 
 
@@ -102,7 +127,6 @@ const Home = () => (
             <Link target="_blank">Dev as Life</Link>
           </NextLink>
           &quot; has more than 100k subscribers. */}
-        </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="https://drive.google.com/uc?export=download&id=1F1DG_sbfhwyByMh4c83kuUjSIO7f_yVp" download passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
@@ -132,7 +156,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2016</BioYear>
-          Built my first ever application called HomeCook
+          Built his first ever application called HomeCook
           that allowed Homecooks to cook and sell food from
           home easily. 🍳
         </BioSection>
@@ -168,10 +192,19 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           What I am currently learning
         </Heading>
-        <Paragraph>
-          Blockchain, NFT, MetaVerse, 
-          Web 3.0 Deploymnet, Deep Learning, ReactNative
-        </Paragraph>
+        <Box delay={0.6} marginLeft={5}>
+          <ul>
+            <li>Blockchain Security ⛓️</li>
+            <li>NFT Minting 🖼️</li>
+            <li>Web 3.0 Deployment 👛</li>
+            <li>Deep Learning 🧠</li>
+            <li>Image Recognition 🌲</li>
+            <li>ReactNative 📱</li>
+          </ul>
+        </Box>
+
+
+
       </Section>
 
       <Section delay={0.3}>
