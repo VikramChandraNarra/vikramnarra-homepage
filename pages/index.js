@@ -98,8 +98,7 @@ const Home = () => (
         <Paragraph>
           Vikram is a <Link>Computer Science Specialist
           Entrepreneurship Stream </Link> 
-          student at<Link> University of Toronto</Link>
-    
+          student at <Link> University of Toronto</Link>
           . With a huge passion for building 
           start-ups focused around Tech and Empowerment. 
 
