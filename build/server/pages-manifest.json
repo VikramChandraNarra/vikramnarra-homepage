@@ -1,6 +1,18 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html",
+  "/_error": "pages/_error.js",
+  "/works/fileconverter": "pages/works/fileconverter.js",
+  "/works/arogi": "pages/works/arogi.js",
+  "/posts": "pages/posts.js",
+  "/": "pages/index.js",
+  "/works/ligerr": "pages/works/ligerr.js",
+  "/works/healthcan": "pages/works/healthcan.js",
+  "/works/morningoshowcase": "pages/works/morningoshowcase.js",
+  "/works/ml": "pages/works/ml.js",
+  "/works/pickandgo": "pages/works/pickandgo.js",
+  "/works/freedbtagger": "pages/works/freedbtagger.js",
+  "/works/speedracer": "pages/works/speedracer.js",
+  "/works": "pages/works.js"
 }

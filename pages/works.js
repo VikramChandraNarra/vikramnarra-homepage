@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
@@ -12,15 +12,59 @@ import threeImage from '../public/images/works/threeimage.jpeg'
 import assembly from '../public/images/works/assembly.png'
 import ligerrBoard from '../public/images/works/ligerrBoard.png'
 
+import carbonfootprint1 from '../public/images/works/CarbonFootprint.png'
+import safespot1 from '../public/images/works/SafeSpot1.png'
+import signify from '../public/images/works/SignifyThumbnail.png'
+import nest from '../public/images/works/nest.png'
+import rbc1 from '../public/images/works/rbc.png'
+import flutterdev1 from '../public/images/works/Flutter2.png'
+
+
+
 const Works = () => (
   <Layout title="Works">
     <Container>
+        <Heading as="h3" variant="section-title" fontSize={20} mb={4} marginTop={5}>
+        Works
+        </Heading>
+        <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <WorkGridItem id="" title="Software Engineer Co-op" thumbnail={rbc1}>
+          Worked as a Software Engineer for RBC Carribean. 
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id="" title="ML Engineer" thumbnail={nest}>
+          Building ML models using deep learning for mining engineer to help them better predict where to dig the next bore hole. 
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id="" title="Lead Developer" thumbnail={flutterdev1}>
+          Leading teams of software engineers to build a mental health application for Flutter Dev Organization x Harvard.
+
+          </WorkGridItem>
+        </Section>
+        </SimpleGrid>
 
 
       <Heading as="h3" variant="section-title" fontSize={20} mb={4} marginTop={5}>
         Projects
         </Heading>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <WorkGridItem id="" title="Signify" thumbnail={signify}>
+          Signify is a revolutionary camera vision-based app that uses machine 
+          learning and cloud computing to help bridge the communication gap between
+          the deaf community and hearing individuals.
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id="" title="SafeSpot" thumbnail={safespot1}>
+          SafeSpot app aims to provide real-time monitoring and alert system to 
+          detect any signs of injury or danger for vulnerable individuals, using 
+          cloud-based machine learning algorithms and computer vision techniques.
+          </WorkGridItem>
+        </Section>
         <Section>
           <WorkGridItem id="healthcan" title="HealthCan" thumbnail={healthCan}>
             An app that addresses the complication of Canadian healthcare,
@@ -52,23 +96,17 @@ const Works = () => (
             An ML program
           </WorkGridItem>
         </Section> */}
-      </SimpleGrid>
 
-      
-      <Section delay={0.4}>
-        <Divider my={6} />
-
-        <Heading as="h3" variant="section-title" fontSize={20} mb={4} marginTop={5}>
-        Less Relevant/Ongoing
-        </Heading>
-        
-      </Section>
-
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
       <Section delay={0.6}>
           <WorkGridItem id="morningoshowcase" thumbnail={morningShowcase} title="Morningo Showcase">
             Developed a Prototype Showcase Website that is being hosted on 
             the decentralized blockcahin for an innovative Startup called Morningo.
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id="carboncam" title="CarbonCam" thumbnail={carbonfootprint1}>
+          CarbonCam allows users to find the amount of time it takes for materials
+          to decompose, simply by allowing users to take pictures of objects.
           </WorkGridItem>
         </Section>
         <Section delay={0.5}>

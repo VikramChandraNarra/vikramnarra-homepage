@@ -12,7 +12,7 @@ import {
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
-import { BioSection, BioYear } from '../components/bio'
+// import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { IoLogoTwitter, IoLogoGithub, IoLogoLinkedin, IoMail, IoCall} from 'react-icons/io5'
@@ -54,7 +54,7 @@ const Home = () => (
           <p>
             <Link>
             <Typed
-                strings={["Full Stack Developer 👨‍💻", "ML Enthusiast 🧠", "iOS Developer ", "Android Developer 📱", "Founder of Cobuild 🤔"]}
+                strings={["Full Stack Developer 👨‍💻", "ML Engineer 🧠", "iOS Developer ", "Android Developer 📱", "SV4 Prospectors @ Hatchery 🤔"]}
                 typeSpeed={80}
                 backSpeed={30}
                 loop
@@ -97,14 +97,14 @@ const Home = () => (
 
         <Paragraph>
           Vikram is a <Link>Computer Science Specialist
-          Entrepreneurship Stream </Link> 
+          Software Engineering Stream </Link> 
           student at <Link> University of Toronto</Link>
           . With a huge passion for building 
-          start-ups focused around Tech and Empowerment. 
+          Full Stack Applications and ML Models that Drives Efficiency, Automation, and Deeper Insights into Our World 
 
         </Paragraph>
         <Paragraph>
-          In his spare time he loves to network and connect with other innovative entrepreneurs 
+          In his spare time he loves to network and connect with other innovative tech enthusiasts 
           and spends most of his time immersing himself into the future of tech. 
         </Paragraph>
           
@@ -137,55 +137,6 @@ const Home = () => (
 
       </Section>
 
-      <Section delay={0.2}>
-        <Heading as="h3" variant="section-title">
-          Bio
-        </Heading>
-        <BioSection>
-          <BioYear>2003</BioYear>
-          Born in Texas, USA. 🌎
-        </BioSection>
-        <BioSection>
-          <BioYear>2011</BioYear>
-          Came 3rd in a School Wide Spelling Bee Tournament. 🐝
-        </BioSection>
-        <BioSection>
-          <BioYear>2015</BioYear>
-          Won First Place in over 8 Open Chess Tournament. ♟️
-        </BioSection>
-        <BioSection>
-          <BioYear>2016</BioYear>
-          Built his first ever application called HomeCook
-          that allowed Homecooks to cook and sell food from
-          home easily. 🍳
-        </BioSection>
-        <BioSection>
-          <BioYear>2018</BioYear>
-          Built a Virtual Reality game that allowed players
-          to soar through the depths of cosmic dust while 
-          evading asteroids and aliens. 🥽
-        </BioSection>
-        <BioSection>
-          <BioYear>2019</BioYear>
-          Built a Mental Health app called {' '} 
-          <NextLink href="/works/arogi" passHref scroll={false}>
-            <Link>Arogi </Link>
-          </NextLink>
-          that focused on tackling mental health, with the help of
-          AI and ML for a Science Fair. 🩺
-        </BioSection>
-        <BioSection>
-          <BioYear>2021</BioYear>
-          Got Admitted into University of Toronto for the Computer Science 
-          Specialist Co-op program. 📚
-        </BioSection>
-        <BioSection>
-          <BioYear>2022</BioYear>
-          Came 2nd in a Campus Wide Co-op Competition on the topic of &apos;The Impact of AI on Democracy&apos;. 🧠
-        </BioSection>
-
-
-      </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
@@ -194,15 +145,26 @@ const Home = () => (
         <Box delay={0.6} marginLeft={5}>
           <ul>
             <li>Blockchain Security ⛓️</li>
-            <li>NFT Minting 🖼️</li>
             <li>Web 3.0 Deployment 👛</li>
             <li>Deep Learning 🧠</li>
-            <li>Image Recognition 🌲</li>
-            <li>ReactNative 📱</li>
+            <li>Quantum Neural Networks 🌲</li>
           </ul>
         </Box>
 
+      </Section>
 
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          What I finished learning
+        </Heading>
+        <Box delay={0.6} marginLeft={5}>
+          <ul>
+            <li>Computer Vision and CNNs</li>
+            <li>React Native</li>
+            <li>Flutter</li>
+            <li>Solidity</li>
+          </ul>
+        </Box>
 
       </Section>
 
