@@ -14,6 +14,10 @@ import ligerrBoard from '../public/images/works/ligerrBoard.png'
 
 import carbonfootprint1 from '../public/images/works/CarbonFootprint.png'
 import safespot1 from '../public/images/works/SafeSpot1.png'
+import findspot from '../public/images/works/findspot.jpeg'
+import kNight from '../public/images/works/kNight.png'
+import td from '../public/images/works/td.png'
+
 import signify from '../public/images/works/SignifyThumbnail.png'
 import nest from '../public/images/works/nest.png'
 import rbc1 from '../public/images/works/rbc.png'
@@ -28,6 +32,11 @@ const Works = () => (
         Works
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <WorkGridItem id="" title="Cloud Engineer Co-op" thumbnail={td}>
+          Worked as a Cloud Engineer for TD. 
+          </WorkGridItem>
+        </Section>
         <Section>
           <WorkGridItem id="" title="Software Engineer Co-op" thumbnail={rbc1}>
           Worked as a Software Engineer for RBC Carribean. 
@@ -52,14 +61,26 @@ const Works = () => (
         </Heading>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="" title="Signify" thumbnail={signify}>
+          <WorkGridItem id="kNight" title="kNight" thumbnail={kNight}>
+          kNight utilizes camera vision technology and machine learning to enhance safety and security during nighttime activities. Its intelligent features provide real-time alerts and assistance, empowering users to navigate and engage in nighttime activities with confidence.
+
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id="findspot" title="FindSpot" thumbnail={findspot}>
+          FindSpot attempts to offer accessible indoor navigation for individuals with accessibility needs. FindSpot enables users to effortlessly navigate within indoor spaces, filling a crucial gap in current solutions.
+
+          </WorkGridItem>
+        </Section>
+        {/* <Section>
+          <WorkGridItem id="signify" title="Signify" thumbnail={signify}>
           Signify is a revolutionary camera vision-based app that uses machine 
           learning and cloud computing to help bridge the communication gap between
           the deaf community and hearing individuals.
           </WorkGridItem>
-        </Section>
+        </Section> */}
         <Section>
-          <WorkGridItem id="" title="SafeSpot" thumbnail={safespot1}>
+          <WorkGridItem id="safespot" title="SafeSpot" thumbnail={safespot1}>
           SafeSpot app aims to provide real-time monitoring and alert system to 
           detect any signs of injury or danger for vulnerable individuals, using 
           cloud-based machine learning algorithms and computer vision techniques.

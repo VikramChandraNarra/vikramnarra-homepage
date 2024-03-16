@@ -54,7 +54,7 @@ const Home = () => (
           <p>
             <Link>
             <Typed
-                strings={["Full Stack Developer 👨‍💻", "ML Engineer 🧠", "iOS Developer ", "Android Developer 📱", "SV4 Prospectors @ Hatchery 🤔"]}
+                strings={["Full Stack Developer 👨‍💻", "ML Engineer 🧠", "iOS Developer ", "Ex SWE-Intern @ RBC", "Ex Cloud Engineer Intern @ TD"]}
                 typeSpeed={80}
                 backSpeed={30}
                 loop
@@ -92,40 +92,46 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          About Me
+        Welcome, fellow voyager of the web! 🚀
         </Heading>
 
         <Paragraph>
-          Vikram is a <Link>Computer Science Specialist
-          Software Engineering Stream </Link> 
-          student at <Link> University of Toronto</Link>
-          . With a huge passion for building 
-          Full Stack Applications and ML Models that Drives Efficiency, Automation, and Deeper Insights into Our World 
-
+          Hey there, curious wanderer! 🌟 Welcome to my digital realm, where bits and dreams collide. I'm Vikram, a spirited Computer Science Specialist with a penchant for Entrepreneurship, navigating the bustling corridors of University of Toronto.
         </Paragraph>
         <Paragraph>
-          In his spare time he loves to network and connect with other innovative tech enthusiasts 
-          and spends most of his time immersing himself into the future of tech. 
+          So buckle up, because on this digital journey, the possibilities are endless and the adventure is just beginning! 💻✨
         </Paragraph>
           
 
 
+      </Section>
 
-          {/* Takuya is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
-          <NextLink href="/works/inkdrop" passHref scroll={false}>
-            <Link>Inkdrop</Link>
-          </NextLink>
-          . He publishes content for marketing his products and his YouTube
-          channel called &quot;
-          <NextLink href="https://www.youtube.com/devaslife" passHref>
-            <Link target="_blank">Dev as Life</Link>
-          </NextLink>
-          &quot; has more than 100k subscribers. */}
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          What I am currently doing?
+        </Heading>
+        <Box delay={0.6} marginLeft={5}>
+          <ul>
+            <li>Founding Engineer @ Stealth Startup</li>
+            <li>Meeting fascinating people at UofT</li>
+            <li>Educating people through comedy</li>
+          </ul>
+        </Box>
+
+      </Section>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          What have I done before?
+        </Heading>
+        <Box delay={0.6} marginLeft={5}>
+          <ul>
+            <li>Cloud Engineer @ TD</li>
+            <li>Software Engineer @ RBC</li>
+            <li>ML Engineer @ Hatchery</li>
+          </ul>
+        </Box>
         <Box align="center" my={4}>
           <NextLink href="https://drive.google.com/uc?export=download&id=1F1DG_sbfhwyByMh4c83kuUjSIO7f_yVp" download passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
@@ -133,39 +139,6 @@ const Home = () => (
             </Button>
           </NextLink>
         </Box>
-
-
-      </Section>
-
-
-      <Section delay={0.3}>
-        <Heading as="h3" variant="section-title">
-          What I am currently learning
-        </Heading>
-        <Box delay={0.6} marginLeft={5}>
-          <ul>
-            <li>Blockchain Security ⛓️</li>
-            <li>Web 3.0 Deployment 👛</li>
-            <li>Deep Learning 🧠</li>
-            <li>Quantum Neural Networks 🌲</li>
-          </ul>
-        </Box>
-
-      </Section>
-
-      <Section delay={0.3}>
-        <Heading as="h3" variant="section-title">
-          What I finished learning
-        </Heading>
-        <Box delay={0.6} marginLeft={5}>
-          <ul>
-            <li>Computer Vision and CNNs</li>
-            <li>React Native</li>
-            <li>Flutter</li>
-            <li>Solidity</li>
-          </ul>
-        </Box>
-
       </Section>
 
       <Section delay={0.3}>

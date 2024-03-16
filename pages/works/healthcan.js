@@ -52,8 +52,8 @@ import {
 
         <AspectRatio maxW="640px" ratio={1.7} my={4}>
           <iframe
-            src="https://www.youtube.com/watch?v=rkqStDlyGfs&feature=youtu.be&ab_channel=HarisMalik"
-            title="YouTube video player"
+            src="https://www.youtube.com/embed/rkqStDlyGfs"
+            title="HealthCan Demo"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
