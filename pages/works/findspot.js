@@ -24,7 +24,7 @@ const Work = () => (
       </P>
       <P>
       🚀 What FindSpot Does:
-      Enables quick navigation within the E7 building, providing a simple interface for users to select a room and find the shortest obstacle-free path using their phone's location.
+      Enables quick navigation within the E7 building, providing a simple interface for users to select a room and find the shortest obstacle-free path using their phone&apos;s location.
       </P>
       <P>
       🔧 How We Built It:
@@ -32,11 +32,11 @@ const Work = () => (
       </P>
       <P>
       🤔 Challenges Faced and Lessons Learned:
-      Routing posed a significant challenge, prompting us to learn the importance of meticulous planning. Despite the hurdles, we're proud of successfully implementing the routing algorithm and overcoming React Native's nuances.
+      Routing posed a significant challenge, prompting us to learn the importance of meticulous planning. Despite the hurdles, we&apos;re proud of successfully implementing the routing algorithm and overcoming React Native&apos;s nuances.
       </P>
       <P>
       🏆 Accomplishments:
-      The implementation of the routing algorithm stands out as a major achievement, demonstrating our ability to balance GUI and functionality. Overcoming React Native's challenges further showcases our team's resilience and problem-solving skills.
+      The implementation of the routing algorithm stands out as a major achievement, demonstrating our ability to balance GUI and functionality. Overcoming React Native&apos;s challenges further showcases our team&apos;s resilience and problem-solving skills.
       </P>
       <List ml={4} my={4}>
         <ListItem>

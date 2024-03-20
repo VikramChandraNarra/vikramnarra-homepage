@@ -18,7 +18,7 @@ import findspot from '../public/images/works/findspot.jpeg'
 import kNight from '../public/images/works/kNight.png'
 import td from '../public/images/works/td.png'
 
-import signify from '../public/images/works/SignifyThumbnail.png'
+// import signify from '../public/images/works/SignifyThumbnail.png'
 import nest from '../public/images/works/nest.png'
 import rbc1 from '../public/images/works/rbc.png'
 import flutterdev1 from '../public/images/works/Flutter2.png'

@@ -101,7 +101,7 @@ const Home = () => (
         </Heading>
 
         <Paragraph>
-          Hey there, curious wanderer! 🌟 Welcome to my digital realm, where bits and dreams collide. I'm Vikram, a spirited Computer Science Specialist with a penchant for Entrepreneurship, navigating the bustling corridors of University of Toronto.
+          Hey there, curious wanderer! 🌟 Welcome to my digital realm, where bits and dreams collide. I&apos;m Vikram, a spirited Computer Science Specialist with a penchant for Entrepreneurship, navigating the bustling corridors of University of Toronto.
         </Paragraph>
         <Paragraph>
           So buckle up, because on this digital journey, the possibilities are endless and the adventure is just beginning! 💻✨
