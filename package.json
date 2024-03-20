@@ -13,21 +13,21 @@
   "author": "Takuya Matsuyama",
   "license": "MIT",
   "dependencies": {
-    "@chakra-ui/icons": "^2.0.8",
-    "@chakra-ui/react": "^2.2.8",
-    "@emotion/react": "^11.10.0",
-    "@emotion/styled": "^11.10.0",
-    "framer-motion": "^7.2.0",
-    "next": "^12.2.5",
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "framer-motion": "^7.10.3",
+    "next": "^12.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.4.0",
+    "react-icons": "^4.12.0",
     "react-typed": "^1.2.0",
     "three": "^0.143.0"
   },
   "devDependencies": {
-    "eslint": "^8.22.0",
-    "eslint-config-next": "^12.2.5",
-    "prettier": "^2.7.1"
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^12.3.4",
+    "prettier": "^2.8.8"
   }
 }
