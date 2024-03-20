@@ -52,15 +52,20 @@ const Home = () => (
             Vikram Narra
           </Heading>
           <p>
-            <Link>
+          <Link>
             <Typed
-                strings={["Full Stack Developer 👨‍💻", "ML Engineer 🧠", "iOS Developer ", "Ex SWE-Intern @ RBC", "Ex Cloud Engineer Intern @ TD"]}
-                typeSpeed={80}
-                backSpeed={30}
-                loop
-              />
-            </Link>
-
+              strings={[
+                "Full Stack Developer &nbsp;👨‍💻",
+                "ML Engineer &nbsp;🧠",
+                "iOS Developer &nbsp;",
+                "Ex SWE Intern @ RBC",
+                "Ex Cloud Engineer Intern @ TD",
+              ]}
+              typeSpeed={80}
+              backSpeed={30}
+              loop
+            />
+          </Link>
           </p>
         </Box>
         <Box
